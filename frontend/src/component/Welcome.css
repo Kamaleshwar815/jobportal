@@ -1,0 +1,73 @@
+.home {
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.h-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 20px;
+    box-shadow: 0 4px 20px rgb(215, 216, 216);
+    height: max-content;
+    width: 200px;
+}
+.h-profile * {
+    margin: 0;
+}
+.h-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 20px rgb(216, 215, 215);
+}
+
+.h-profile p {
+    font-size: 23px;
+    font-weight: bold;
+    background-color: #f3f3ff;
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+}
+.h-profile span {
+    color: rgb(167, 166, 166);
+    margin-bottom: 10px;
+    background-color: #f3f3ff;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.h-profile h6 {
+    margin-top: 5px;
+    font-weight: 400;
+}
+.h-main {
+    width: auto;
+}
+.hm-search {
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgb(216, 215, 215);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.hm-search > input {
+    width: 220px;
+    height: 40px;
+    border: 0;
+    text-indent: 10px;
+}
+.hm-search > div {
+    position: relative;
+}
+.hm-search > div > input {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
